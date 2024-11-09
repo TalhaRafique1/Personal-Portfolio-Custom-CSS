@@ -1,0 +1,43 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  .heroImage {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  .heroDescription {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: #555;
+    max-width: 800px;
+  }
+  
+  .heroIcons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .iconButton {
+    margin: 0 15px;
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .iconButton:hover {
+    color: #0077b5; /* Change this to a desired hover color */
+  }
+  
